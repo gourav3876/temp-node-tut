@@ -13,7 +13,7 @@ res.end(`<h1>oops!</h1>
 })
 server.listen(5000)
 
-const_ = require('lodash')
+const _= require('lodash')
 
 const items=[1,[2,[3,[4]]]]
 const newItmes = _.flattenDeep(items)
